@@ -11,7 +11,7 @@ int coin_changeII(int coins[],int n,int sum){
 			t[1][j]=j/coins[0];
 		else
 			t[1][j]=INT_MAX-1;
-	}
+	} 
 	for(int i=2;i<=n;i++){
 		for(int j=0;j<=sum;j++){
 			if(coins[i-1]<=j)
